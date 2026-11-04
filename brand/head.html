@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--ivory:#f6f1e9;--ivory2:#efe6d8;--clay:#b01e3c;--clay-d:#7d0a26;--sage:#c9455e;--sage-d:#8e0c2c;--ink:#5a061b;--muted:#7a6d63;--red:#b5483c;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#ccc;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink)}
+.card{width:966px;height:1208px;position:relative;overflow:hidden;background:var(--ivory);margin:0 0 20px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.brand{position:absolute;left:60px;bottom:44px;display:flex;align-items:center;gap:14px;font-size:22px;color:var(--clay-d);letter-spacing:.08em}
+.brand b{font-family:"Noto Serif CJK KR",serif;font-size:28px;letter-spacing:.02em}
+.brand .dot{width:8px;height:8px;border-radius:50%;background:var(--sage)}
+.pg{position:absolute;right:60px;bottom:48px;font-size:20px;color:var(--muted);letter-spacing:.2em}
+.tag{display:inline-block;padding:10px 22px;border:1.5px solid var(--clay);border-radius:40px;color:var(--clay-d);font-size:22px;letter-spacing:.06em}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:multiply;
+ background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .4 0 0 0 0 .3 0 0 0 .35 0'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>")}
+h1,h2{font-family:"Noto Serif CJK KR",serif;font-weight:700}
+.photo{border-radius:28px;overflow:hidden;box-shadow:0 18px 40px rgba(60,35,20,.25),0 2px 6px rgba(60,35,20,.2);position:relative}
+.label{position:absolute;font-size:18px;color:#fff;background:rgba(46,37,32,.72);padding:6px 14px;border-radius:20px;letter-spacing:.05em}
+</style></head><body>
+
+<!-- ============ shared SVG defs ============ -->
+<svg width="0" height="0" style="position:absolute">
+ <defs>
+  <filter id="skin" x="0" y="0" width="100%" height="100%">
+   <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="4" result="t"/>
+   <feColorMatrix in="t" values="0 0 0 0 0.55  0 0 0 0 0.38  0 0 0 0 0.28  0 0 0 0.18 0" result="tn"/>
+   <feComposite in="tn" in2="SourceGraphic" operator="in" result="tex"/>
+   <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="tex"/></feMerge>
+  </filter>
+  <filter id="inkblur"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="inkblur2"><feGaussianBlur stdDeviation="2.2"/></filter>
+  <filter id="hair" x="-10%" y="-30%" width="120%" height="160%">
+   <feTurbulence type="fractalNoise" baseFrequency="0.02 0.6" numOctaves="2" seed="9" result="h"/>
+   <feDisplacementMap in="SourceGraphic" in2="h" scale="9"/>
+  </filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+  <radialGradient id="skinG" cx="45%" cy="40%" r="75%">
+   <stop offset="0" stop-color="#f2d4bd"/><stop offset=".6" stop-color="#e3b798"/><stop offset="1" stop-color="#c9967a"/>
+  </radialGradient>
+  <linearGradient id="glass" x1="0" x2="1">
+   <stop offset="0" stop-color="#5b3b2a"/><stop offset=".18" stop-color="#a06d4e"/><stop offset=".32" stop-color="#e9c7a8"/>
+   <stop offset=".45" stop-color="#a87656"/><stop offset=".8" stop-color="#6b4532"/><stop offset="1" stop-color="#3f271b"/>
+  </linearGradient>
+  <linearGradient id="cap" x1="0" x2="1">
+   <stop offset="0" stop-color="#c9c3bb"/><stop offset=".3" stop-color="#fbf8f4"/><stop offset=".55" stop-color="#d9d3cb"/><stop offset="1" stop-color="#8f8880"/>
+  </linearGradient>
+  <linearGradient id="dropper" x1="0" x2="1">
+   <stop offset="0" stop-color="#2b2421"/><stop offset=".35" stop-color="#5d524c"/><stop offset="1" stop-color="#1b1513"/>
+  </linearGradient>
+ </defs>
+</svg>
