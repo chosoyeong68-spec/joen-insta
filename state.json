@@ -6,7 +6,9 @@
       "topic": 3,
       "file": "2026-11/20261109_last-choice.jpg",
       "metricool_id": 417042117,
-      "keyword": "반영구학원"
+      "keyword": "반영구학원",
+      "note": "알림 미확인으로 미발행 → 2026-11-10 20:00 자동발행으로 재예약",
+      "republish_metricool_id": 422883282
     },
     {
       "date": "2026-11-11",
@@ -18,7 +20,7 @@
         "2026-11/20261111_eyebrow-academy-patent_3.jpg",
         "2026-11/20261111_eyebrow-academy-patent_4.jpg"
       ],
-      "metricool_id": 420636503
+      "metricool_id": 422883681
     },
     {
       "date": "2026-11-13",
@@ -30,7 +32,7 @@
         "2026-11/20261113_ruined-brow-recover_3.jpg",
         "2026-11/20261113_ruined-brow-recover_4.jpg"
       ],
-      "metricool_id": 420636513
+      "metricool_id": 422883697
     }
   ]
 }

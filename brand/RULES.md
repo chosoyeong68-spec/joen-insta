@@ -2,7 +2,7 @@
 
 ## 계정·발행
 - Metricool 브랜드 id 7882502, 인스타그램 @joen_eyebrow, 시간대 Asia/Seoul
-- 발행: 월·수·금 10:00 (KST), autoPublish=false (원장님이 Metricool 앱 알림 확인 후 발행), instagramData.isAiGenerated=true
+- 발행: 월·수·금 10:00 (KST), autoPublish=true (자동발행 — 2026-11-10 원장님 요청으로 알림 방식에서 변경), instagramData.isAiGenerated=true
 - 이미지: 이 저장소 YYYY-MM/ 폴더에 1080x1350 JPG로 커밋 → https://raw.githubusercontent.com/chosoyeong68-spec/joen-insta/main/<경로> 를 media로 사용
 
 ## 디자인
