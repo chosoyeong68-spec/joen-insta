@@ -1,5 +1,5 @@
 {
-  "next_topic": 3,
+  "next_topic": 1,
   "posted": [
     {
       "date": "2026-11-09",
@@ -33,6 +33,42 @@
         "2026-11/20261113_ruined-brow-recover_4.jpg"
       ],
       "metricool_id": 422883697
+    },
+    {
+      "date": "2026-11-16",
+      "topic": 3,
+      "keyword": "문신사자격증",
+      "files": [
+        "2026-11/20261116_tattoo-license_1.jpg",
+        "2026-11/20261116_tattoo-license_2.jpg",
+        "2026-11/20261116_tattoo-license_3.jpg",
+        "2026-11/20261116_tattoo-license_4.jpg"
+      ],
+      "metricool_id": 428779021
+    },
+    {
+      "date": "2026-11-18",
+      "topic": 4,
+      "keyword": "눈썹 잔흔 수정",
+      "files": [
+        "2026-11/20261118_brow-residue-fix_1.jpg",
+        "2026-11/20261118_brow-residue-fix_2.jpg",
+        "2026-11/20261118_brow-residue-fix_3.jpg",
+        "2026-11/20261118_brow-residue-fix_4.jpg"
+      ],
+      "metricool_id": 428779031
+    },
+    {
+      "date": "2026-11-20",
+      "topic": 5,
+      "keyword": "군자역 반영구",
+      "files": [
+        "2026-11/20261120_gunja-academy_1.jpg",
+        "2026-11/20261120_gunja-academy_2.jpg",
+        "2026-11/20261120_gunja-academy_3.jpg",
+        "2026-11/20261120_gunja-academy_4.jpg"
+      ],
+      "metricool_id": 428779042
     }
   ]
 }
