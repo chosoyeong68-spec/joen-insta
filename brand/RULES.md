@@ -13,7 +13,10 @@
   - 사진 속 인물을 특정인(예: 조소영 대표원장)이라고 이름 붙이지 말 것 — '수업 현장', '강의 현장', '수료식' 정도로만 표기
   - 같은 캐러셀 안에서 같은 사진을 두 번 쓰지 말고, 직전 게시물과도 겹치지 않게 순환
   - 사진 목록: class_demo_explain/explain2/students/wide(원데이클래스 시연), class_closeup_hands(시술 손 클로즈업), class_model_demo(모델 시연), lecture_design_model·lecture_instructor_model(모델 디자인 강의), practice_students·practice_handson(수강생 실습), graduation_certificate·graduation_group·graduation_logo_wall(수료식)
-- 눈썹·피부·도구 같은 사물 표현은 brand/head.html(필터·그라데이션 정의)과 brand/brow.js(눈썹 렌더러 browX: embo/suji/combo/powder/real/bad/res/bare) 재사용 가능
+- **눈썹도 반드시 실제 눈썹 사진만 사용 (그림·SVG·brow.js 렌더 눈썹 금지 — 2026-11-20 원장님 요청).** brand/brows/ 의 실제 시술 사진을 쓰고, 사진의 기법이 문구와 일치해야 함(엠보 문구엔 엠보 사진, 잔흔 문구엔 실제 잔흔 사진 등)
+  - brand/brows/ 파일명 규칙: <기법>_<설명>.jpg — embo / suji / combo / powder / realistic(특허 사실묘사) / residue(잔흔) / recover_before / recover_after / practice(연습용 도구)
+  - 필요한 기법의 사진이 brand/brows/ 에 없으면 눈썹 이미지를 만들지 말고, 텍스트·특허증·수업 사진으로 구성한 뒤 보고에 '○○ 기법 실사진 필요'라고 적을 것
+  - 비포·애프터는 같은 고객의 실제 전후 사진일 때만 사용 (임의 조합 금지)
 - 4:5 세로 카드, Playwright(chromium) device_scale_factor 2로 렌더 후 1080x1350로 리사이즈
 
 ## 사실 기준 (이 외의 수치·이력은 지어내지 말 것)
