@@ -8,7 +8,12 @@
 ## 디자인
 - 선명한 버건디 팔레트: #8e0c2c(메인), #b01e3c, #5a061b(짙은 띠), 포인트 #ffc2cd·#f0c9cc, 금색 #c99a3e, 바탕 아이보리 #f6f1e9 / #f8f1ee
 - 세리프 제목(Noto Serif CJK KR) + 본문 Noto Sans CJK KR
-- 실사 느낌(피부·눈썹 결·도구) + 애니메이션 캐릭터 혼합. brand/head.html(필터·그라데이션 정의)과 brand/brow.js(눈썹 렌더러 browX: embo/suji/combo/powder/real/bad/res/bare) 재사용
+- **사람은 반드시 실사 사진만 사용 (애니메이션·일러스트 캐릭터 금지 — 2026-11-20 원장님 요청).** brand/photos/ 의 실제 수업 사진을 사용
+  - 사람이 들어갈 자리에는 원형(흰 테두리 + 버건디 링) 또는 둥근 모서리 사진 프레임으로 넣거나, 표지 배경 사진으로 크게 사용
+  - 사진 속 인물을 특정인(예: 조소영 대표원장)이라고 이름 붙이지 말 것 — '수업 현장', '강의 현장', '수료식' 정도로만 표기
+  - 같은 캐러셀 안에서 같은 사진을 두 번 쓰지 말고, 직전 게시물과도 겹치지 않게 순환
+  - 사진 목록: class_demo_explain/explain2/students/wide(원데이클래스 시연), class_closeup_hands(시술 손 클로즈업), class_model_demo(모델 시연), lecture_design_model·lecture_instructor_model(모델 디자인 강의), practice_students·practice_handson(수강생 실습), graduation_certificate·graduation_group·graduation_logo_wall(수료식)
+- 눈썹·피부·도구 같은 사물 표현은 brand/head.html(필터·그라데이션 정의)과 brand/brow.js(눈썹 렌더러 browX: embo/suji/combo/powder/real/bad/res/bare) 재사용 가능
 - 4:5 세로 카드, Playwright(chromium) device_scale_factor 2로 렌더 후 1080x1350로 리사이즈
 
 ## 사실 기준 (이 외의 수치·이력은 지어내지 말 것)
