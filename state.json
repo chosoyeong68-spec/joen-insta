@@ -8,7 +8,12 @@
       "metricool_id": 417042117,
       "keyword": "반영구학원",
       "note": "알림 미확인으로 미발행 → 2026-11-10 20:00 자동발행으로 재예약",
-      "republish_metricool_id": 422883282
+      "republish_metricool_id": 422883282,
+      "realphoto_repost": {
+        "metricool_id": 435170125,
+        "when": "2026-11-20 16:00 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     },
     {
       "date": "2026-11-11",
@@ -20,7 +25,12 @@
         "2026-11/20261111_eyebrow-academy-patent_3.jpg",
         "2026-11/20261111_eyebrow-academy-patent_4.jpg"
       ],
-      "metricool_id": 422883681
+      "metricool_id": 422883681,
+      "realphoto_repost": {
+        "metricool_id": 435170203,
+        "when": "2026-11-20 16:30 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     },
     {
       "date": "2026-11-13",
@@ -32,7 +42,12 @@
         "2026-11/20261113_ruined-brow-recover_3.jpg",
         "2026-11/20261113_ruined-brow-recover_4.jpg"
       ],
-      "metricool_id": 422883697
+      "metricool_id": 422883697,
+      "realphoto_repost": {
+        "metricool_id": 435170283,
+        "when": "2026-11-20 17:00 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     },
     {
       "date": "2026-11-16",
@@ -44,7 +59,12 @@
         "2026-11/20261116_tattoo-license_3.jpg",
         "2026-11/20261116_tattoo-license_4.jpg"
       ],
-      "metricool_id": 428779021
+      "metricool_id": 428779021,
+      "realphoto_repost": {
+        "metricool_id": 435170339,
+        "when": "2026-11-20 17:30 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     },
     {
       "date": "2026-11-18",
@@ -56,7 +76,12 @@
         "2026-11/20261118_brow-residue-fix_3.jpg",
         "2026-11/20261118_brow-residue-fix_4.jpg"
       ],
-      "metricool_id": 428779031
+      "metricool_id": 428779031,
+      "realphoto_repost": {
+        "metricool_id": 435170418,
+        "when": "2026-11-20 18:00 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     },
     {
       "date": "2026-11-20",
@@ -68,7 +93,12 @@
         "2026-11/20261120_gunja-academy_3.jpg",
         "2026-11/20261120_gunja-academy_4.jpg"
       ],
-      "metricool_id": 428779042
+      "metricool_id": 428779042,
+      "realphoto_repost": {
+        "metricool_id": 435170495,
+        "when": "2026-11-20 18:30 KST",
+        "note": "캐릭터→실사 사진 교체본(2026-11/real/) 재발행. 기존 게시물은 인스타 앱에서 직접 삭제 필요"
+      }
     }
   ]
 }
